@@ -1,0 +1,23 @@
+{
+  "name": "QR anything",
+  "version": "0.5.0",
+  "manifest_version": 2,
+  "description": "Generate QR of anything instantly. Just right click and generate QR of images and links.",
+  "icons": {
+    "16": "icons/16.png",
+    "28": "icons/28.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "options_page": "qr.html",
+  "permissions": [
+    "contextMenus"
+  ]
+}

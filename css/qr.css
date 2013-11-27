@@ -1,0 +1,23 @@
+body {
+    min-width: 400px;
+    min-height: 200px;
+    color:#7D7F80;
+    font: .875em/1.35 'Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif;
+}
+#content {
+	width: 960px;
+	margin: 0px auto;
+	text-align: center;
+}
+#qrcode {
+	width: 256px;
+	margin: 0px auto;
+}
+#data {
+	margin-top:100px;
+	margin-bottom:10px;
+	font-size: 20px;
+}
+#footer {
+	margin-top:100px;
+}
