@@ -14,10 +14,20 @@ body {
 	margin: 0px auto;
 }
 #data {
+	font-style: italic;
 	margin-top:100px;
 	margin-bottom:10px;
 	font-size: 20px;
 }
 #footer {
-	margin-top:100px;
+	margin-top:50px;
+}
+textarea {
+	width: 256px;
+	padding: 2px;
+	min-height: 50px;
+	resize: none;
+}
+canvas {
+	display: none;
 }
