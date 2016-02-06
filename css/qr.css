@@ -15,9 +15,20 @@ body {
 }
 #data {
 	font-style: italic;
-	margin-top:100px;
+	margin-top:50px;
 	margin-bottom:10px;
 	font-size: 20px;
+}
+#apps {
+  margin: 15px 0px;
+  font-size: 16px;
+}
+#apps img {
+  vertical-align: sub;
+}
+#apps a {
+  color: #7D7F80;
+  text-decoration: none;
 }
 #footer {
 	margin-top:50px;
